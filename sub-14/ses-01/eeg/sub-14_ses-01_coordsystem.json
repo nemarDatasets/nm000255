@@ -1,0 +1,6 @@
+{
+  "IntendedFor": "BBBD\\experiment2\\sub-14\\ses-01\\eeg",
+  "EEGCoordinateSystem": "EEGLAB",
+  "EEGCoordinateUnits": "mm",
+  "EEGCoordinateSystemDescription": "Geographic coordinates"
+}
