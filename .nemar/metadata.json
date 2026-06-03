@@ -1,0 +1,86 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jens Madsen": {},
+    "Nikhil Kuppa": {},
+    "Lucas Parra": {}
+  },
+  "funding_references": [
+    {
+      "funder_name": "National Science Foundation",
+      "award_number": "DRL-1660548"
+    },
+    {
+      "funder_name": "National Science Foundation",
+      "award_number": "DRL-2201835"
+    }
+  ],
+  "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 2",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "beh",
+    "eeg"
+  ],
+  "resource_type_specific": "Neuroimaging Dataset",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000255",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000255",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.nm000255",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    }
+  ],
+  "sizes": [
+    "5.6 GB (3800 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".gz",
+    ".json",
+    ".md",
+    ".sh",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "The Brain, Body, and Behaviour Dataset (Experiment 2) is a multimodal neurophysiological dataset comprising 31 subjects across 2 sessions designed to investigate incidental learning and attention. Participants watched five educational videos under attentive and distracted conditions while simultaneous recordings of EEG, ECG, EOG, eye-tracking, and pupil size were collected. The dataset includes behavioral measures of memory retention through post-video questionnaires and ADHD symptom assessments, providing a comprehensive resource for studying the neural and physiological correlates of attention, learning, and cognitive engagement.",
+  "methods_description": "Data collection involved 31 subjects completing two sessions: (1) an attentive condition where subjects watched five informative videos and answered 11-12 factual multiple-choice questions after each video, and (2) a distracted condition where subjects watched the same videos while silently counting backwards from a random prime number in steps of 7, with no subsequent testing. Simultaneous recordings included EEG (.bdf format), ECG, EOG, gaze coordinates (X, Y), pupil size, blinks, saccades, and head motion. Raw data were converted from MATLAB .mat files to BIDS-compliant formats (.bdf for EEG, .tsv.gz for physiological and eye-tracking data).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "learning"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "incidental learning"
+    },
+    {
+      "term": "ECG"
+    },
+    {
+      "term": "EOG"
+    }
+  ],
+  "source_hash": "adf176082b6673aa31b92417b26fbb70c9b73491794acbadd1696a761c5635ca"
+}
