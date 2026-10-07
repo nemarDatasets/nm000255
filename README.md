@@ -119,3 +119,16 @@ The table below is a breakdown on the total minutes of raw data available for ea
 | Pupil                      | 110.56  |             
 | Respiration                | 44.2    |            
 ----------------------------------------
+
+## Stimuli
+
+Added 2026-10-08 (metadata only; no video is included). `stimuli/stimuli.tsv` has one row per stimulus task (`stimNN`):
+YouTube id, the presented duration (`end - start` in `*_events.tsv`, the same in every recording), the length of the
+current upload and, where verified, where the presentation starts inside the upload. The videos are third-party YouTube
+uploads (standard YouTube licence); watch them at the listed links.
+
+Known timing facts:
+- The presented versions are edited: stim01 184.8 s of 208.7 s; stim03 388.8 s of 468.8 s; stim04 369.0 s of 392.1 s; stim05 150.2 s of 153.3 s.
+- Start of the presentation inside the upload (median pupil size of all recordings vs. upload luminance; the pupil
+  constricts 0.4-0.5 s after brightening; the mosquito start comes from the video content, end of the channel intro):
+  stim01: 0 s; stim02: 0 s; stim03: 0 s; stim04: 0 s; stim05: 0 s.
