@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 2",
-  "description": "Multimodal dataset of 31 participants who watched five short educational videos in two sessions: an attentive condition followed by factual memory questions, and a distracted condition in which participants silently counted backwards. Recordings include EEG, ECG, EOG, gaze position, pupil size, blinks, saccades and head motion. Questionnaire data (stimulus knowledge and memory questions, ASRS adult ADHD checklist) are provided, supporting research on attention, incidental learning and physiological correlates of engagement.",
-  "methods_description": "Participants watched five informative YouTube videos without knowing they would be tested (incidental learning). In session 1 (attentive) they answered domain and memory multiple-choice questions for each video. In session 2 (distracted) they rewatched the videos in the same order while silently counting backwards from a random prime number in steps of 7, with no questions afterward. EEG, ECG, EOG, head motion, gaze coordinates and pupil size were recorded. EEG was converted to BDF and physiological and eye-tracking data to tsv.gz using MATLAB.",
+  "description": "Multimodal dataset of 31 participants who watched five informative educational videos in two sessions: an attentive condition followed by factual multiple-choice questions, and a distracted condition in which participants silently counted backwards. Simultaneous recordings include EEG, EOG, ECG, head motion, gaze coordinates, pupil size, blinks and saccades. Questionnaire data (stimulus knowledge questions and the ASRS adult ADHD checklist) are also provided. The experiment targets incidental learning and attention during naturalistic video viewing.",
+  "methods_description": "Participants watched five informative videos in random order while EEG, EOG, ECG, head motion, gaze and pupil size were recorded. In the attentive session (Ses-01) they answered 11-12 factual multiple-choice questions after each video. In the distracted session (Ses-02) they rewatched the videos in the same order while silently counting backwards from a random prime number in steps of 7, with no questions afterward. Raw EEG was stored as BDF and physiological and eye-tracking data as compressed TSV files.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -16,7 +16,12 @@
       "term": "EEG"
     },
     {
-      "term": "eye tracking"
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "Eye tracking"
     },
     {
       "term": "Attention",
@@ -24,20 +29,15 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
-      "term": "Electrocardiography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+      "term": "incidental learning"
+    },
+    {
+      "term": "video watching"
     },
     {
       "term": "Electrooculography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004585"
-    },
-    {
-      "term": "video learning"
-    },
-    {
-      "term": "incidental learning"
     }
   ],
   "related_identifiers": [
@@ -80,5 +80,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "adf176082b6673aa31b92417b26fbb70c9b73491794acbadd1696a761c5635ca"
+  "source_hash": "93a3b50b2ee5aebebcfffa5f8a5ffcd4a550d5bf5728565ac23f67f5c9d0b9ad"
 }
